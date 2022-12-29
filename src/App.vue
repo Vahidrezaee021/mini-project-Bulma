@@ -5,7 +5,7 @@
     <thead>
       <tr>
         <th>Numbers</th>
-        <th>Strings</th>
+        <th>Names</th>
       </tr>
     </thead>
     <tbody>
@@ -24,10 +24,14 @@ export default {
   data() {
     return {
       items: [
-        { string: "two", number: 2 },
-        { string: "One", number: 1 },
-        { string: "Four", number: 4 },
-        { string: "three", number: 3 },
+        { string: "John", number: 18 },
+        { string: "Sarah", number: 17.75 },
+        { string: "Tom", number: 9.5 },
+        { string: "Ali", number: 11.25 },
+        { string: "Jerry", number: 13 },
+        { string: "Matt", number: 5.5 },
+        { string: "Patt", number: 20 },
+        { string: "Khan", number: 19 },
       ],
       descNumbers: false,
     };
